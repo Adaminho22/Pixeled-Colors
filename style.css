@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+    margin-top: 70px;
+    background-image: url(pixeltaust.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -90px;
+   
+}
+
+h1 {
+    color: white;
+    font-family: pixel;
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url(dogicapixel.ttf);
+}
+
+.tekst1:hover {
+    color: red;
+    cursor:grab;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.tekst2:hover {
+    color: rgb(31, 96, 182);
+    cursor:grab;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.tekst3:hover {
+    color: green;
+    cursor:grab;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.tekst4:hover {
+    color: rgb(224, 100, 193);
+    cursor:grab;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.tekst5:hover {
+    color: rgb(142, 29, 177);
+    cursor:grab;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.copy {
+    text-align: right;
+    font-family: pixel;
+    font-size: 0.5em;
+    margin-top: 90px;
+    color: white;
+    animation-name: FloatingHeader;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation: FloatingHeader 4s ease-in-out infinite;
+}
+
+.copy:hover {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    color: rgb(36, 182, 187);
+    cursor:pointer;
+}
+
+@keyframes FloatingHeader {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
